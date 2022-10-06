@@ -1,5 +1,8 @@
 
-# Appsmith [issues](https://discord.com/channels/725602949748752515/1022081904087941130)
+# Self-hosted MariaDB Too many [connections](https://discord.com/channels/725602949748752515/1022081904087941130)
+"Plugin failed to connect to data source with error: io.r2dbc.spi.R2dbcNonTransientResourceException: [1040] Too many connections"
+
+With this our instance is not working, and all queries fails.  Before there has been no connection issue whatsoever.
 
 --------------------------
 ### Steps to follow to reproduce the issues.
