@@ -2,7 +2,7 @@
 --------------------------
 ### Steps to follow to reproduce the issues.
 1. Start the appsmith [self-host.](https://docs.appsmith.com/getting-started/setup/installation-guides/docker)
-2. Start a [docker-compose](Appsmith-Issue/docker-compose.yaml) with MySQL.
+2. Start a [docker-compose](mysql/docker-compose.yaml) with MySQL.
 ```yaml
 version: '3.3'
 services:
