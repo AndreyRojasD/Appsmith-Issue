@@ -2,6 +2,8 @@ version: '3.3'
 services:
   db:
     image: mysql:5.7
+    command:
+        --max_connections=2
     restart: always
     environment:
       MYSQL_DATABASE: 'db'
@@ -14,5 +16,5 @@ services:
       - '3306'
     volumes:
       - my-db:/var/lib/mysql
-svolumes:
-  my-db:2. 
+volumes:
+  my-db:
